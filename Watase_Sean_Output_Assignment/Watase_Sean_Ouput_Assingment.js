@@ -11,3 +11,6 @@ var itemName = "Water Bottle";
 
 // Assigning a Number variable
 var itemPrice = 34.99;
+
+//Assigning a Boolean variable
+var itemAvailability = true;
