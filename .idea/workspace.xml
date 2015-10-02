@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40dcb1cb-f659-4fbf-8d2b-b073b96b37ec" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Watase_Sean_Output_Assignment/Watase_Sean_Ouput_Assingment.js" afterPath="$PROJECT_DIR$/Watase_Sean_Output_Assignment/Watase_Sean_Ouput_Assingment.js" />
-    </list>
+    <list default="true" id="40dcb1cb-f659-4fbf-8d2b-b073b96b37ec" name="Default" comment="" />
     <ignored path="Watase_Sean_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,14 +31,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Watase_Sean_Ouput_Assingment.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Watase_Sean_Ouput_Assingment.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Watase_Sean_Output_Assignment/Watase_Sean_Ouput_Assingment.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.06559767">
+            <state vertical-scroll-proportion="0.0">
               <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
               <folding>
                 <element signature="e#0#44#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Watase_Sean_Output_Assignment/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -50,8 +58,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Html5" />
         <option value="JavaScript File" />
+        <option value="Html5" />
       </list>
     </option>
   </component>
@@ -63,6 +71,7 @@
       <list>
         <option value="$PROJECT_DIR$/Setup GitHub/index.html" />
         <option value="$PROJECT_DIR$/Watase_Sean_Output_Assignment/Watase_Sean_Ouput_Assingment.js" />
+        <option value="$PROJECT_DIR$/Watase_Sean_Output_Assignment/index.html" />
       </list>
     </option>
   </component>
@@ -262,11 +271,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Watase_Sean_Output_Assignment/Watase_Sean_Ouput_Assingment.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06559767">
+        <state vertical-scroll-proportion="0.0">
           <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
           <folding>
             <element signature="e#0#44#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Watase_Sean_Output_Assignment/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
