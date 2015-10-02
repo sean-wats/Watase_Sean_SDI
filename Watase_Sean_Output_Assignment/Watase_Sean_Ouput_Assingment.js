@@ -6,4 +6,5 @@
 // SDI - Section 01
 // Output Assignment
 
-
+// Assigning a String variable
+var itemName = "Water Bottle";
