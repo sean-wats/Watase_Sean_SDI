@@ -19,3 +19,5 @@ var itemAvailability = true;
 
 // Creating a Sting Output
 console.log("This item is called: " + itemName);
+
+console.log("Description of item: " + itemDescription);
