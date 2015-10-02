@@ -36,8 +36,8 @@
       <file leaf-file-name="Watase_Sean_Ouput_Assingment.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Watase_Sean_Output_Assignment/Watase_Sean_Ouput_Assingment.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.69970846">
-              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.06559767">
+              <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
               <folding>
                 <element signature="e#0#44#0" expanded="false" />
               </folding>
@@ -149,8 +149,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="recentsLimit" value="5" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.Watase_Sean_Ouput_Assingment.js">
+    <configuration default="false" name="Watase_Sean_Ouput_Assingment.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="Watase_Sean_Ouput_Assingment.js" working-dir="$PROJECT_DIR$/Watase_Sean_Output_Assignment">
+      <browser start="true" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
@@ -189,6 +194,14 @@
       <envs />
       <method />
     </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.Watase_Sean_Ouput_Assingment.js" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.Watase_Sean_Ouput_Assingment.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
@@ -249,8 +262,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Watase_Sean_Output_Assignment/Watase_Sean_Ouput_Assingment.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.69970846">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.06559767">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
           <folding>
             <element signature="e#0#44#0" expanded="false" />
           </folding>

@@ -3,7 +3,7 @@
  */
 
 // Sean Watase
-// SDI - Section 01
+// SDI 1510
 // Output Assignment
 
 // Assigning a String variable
