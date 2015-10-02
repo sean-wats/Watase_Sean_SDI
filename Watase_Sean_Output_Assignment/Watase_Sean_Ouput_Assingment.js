@@ -14,3 +14,6 @@ var itemPrice = 34.99;
 
 //Assigning a Boolean variable
 var itemAvailability = true;
+
+// Creating a Sting Output
+console.log("This item is called: " + itemName);
