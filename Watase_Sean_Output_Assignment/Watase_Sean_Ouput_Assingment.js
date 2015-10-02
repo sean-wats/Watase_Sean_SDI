@@ -8,3 +8,6 @@
 
 // Assigning a String variable
 var itemName = "Water Bottle";
+
+// Assigning a Number variable
+var itemPrice = 34.99;
