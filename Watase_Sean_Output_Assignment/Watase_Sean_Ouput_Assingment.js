@@ -21,3 +21,14 @@ var itemAvailability = true;
 console.log("This item is called: " + itemName);
 
 console.log("Description of item: " + itemDescription);
+
+//Creating a Number Output
+console.log("The price of the " + itemName + " is " + itemPrice);
+
+// Creating a Boolean Output
+if (itemAvailability == true) {
+    console.log(itemAvailability + " " + itemName + " is in stock.");
+}
+else {
+    console.log(itemName + " is not in stock.");
+}
