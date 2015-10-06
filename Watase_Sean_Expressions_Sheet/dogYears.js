@@ -5,3 +5,6 @@
 
 //User will enter the age of Sparky the dog in human years.
 //Will return Sparky's age in dog years.
+
+//Get Sparky's age in human years
+var sparkysAgeInHumanYears = prompt("Enter Sparky's age in human years:");
