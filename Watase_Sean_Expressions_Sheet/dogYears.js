@@ -12,3 +12,8 @@ var sparkysAgeInHumanYears = prompt("Enter Sparky's age in human years:");
 //Converting Human years to Dog Years (1 Human years = 7 Dog years)
 var sparkysAgeInDogYears = sparkysAgeInHumanYears * 7;
 
+//Output the result
+var finalResult = "Sparky is " + sparkysAgeInHumanYears + " human years old which is " + sparkysAgeInDogYears + " in dog years.";
+console.log(finalResult);
+
+alert(finalResult);
