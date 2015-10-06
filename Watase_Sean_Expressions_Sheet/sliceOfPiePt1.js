@@ -7,3 +7,13 @@
     //How many people at the party
     //How many pizzas were ordered
 
+//User will answer these prompts
+
+//Slices per pizza
+var slicesPerPizza = prompt("How many slices does the pizza have?");
+
+//People at the party
+var numberOfPeopleAtParty = prompt("How many people are at the party?");
+
+//Number of pizzas ordered
+var numberOfPizzasOrdered = prompt("How many pizzas did you order?");
