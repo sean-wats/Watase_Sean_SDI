@@ -31,4 +31,7 @@ var totalWithDiscountAndTax = (100 / (100 - salesTax) + 1) * totalWithDiscountNo
 
 
 //Output
+var finalResult = "Your " + itemDescription + " was originally $" + originalPrice + ". After the " + discountAmount + "% discount, your total without tax is $" + totalWithDiscountNoTax + " and with tax it is $" + totalWithDiscountAndTax + ".";
 
+alert(finalResult);
+console.log(finalResult);
