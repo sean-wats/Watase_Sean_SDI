@@ -21,11 +21,11 @@ var numberOfPizzasOrdered = prompt("How many pizzas did you order?");
 
 //Solving how many slices each person will get
 var numberOfSlicesForSparky = (numberOfPizzasOrdered * slicesPerPizza) % numberOfPeopleAtParty;
-var numberOfSlicesPerPerson = (numberOfPizzasOrdered * slicesPerPizza) - numberOfSlicesForSparky / numberOfPeopleAtParty;
+var numberOfSlicesPerPerson = ((numberOfPizzasOrdered * slicesPerPizza) - numberOfSlicesForSparky) / numberOfPeopleAtParty;
 
 
 //Outputting result to console and user
-var finalResult = "If you order " + numberOfPizzasOrdered + " pizzas and each pizza has " + slicesPerPizza + " slices. Each of the " + numberOfPeopleAtParty + " people at the party will get " + numberOfSlicesPerPerson + " slices ans Sparky would get " + numberOfSlicesForSparky + " slices.";
+var finalResult = "If you order " + numberOfPizzasOrdered + " pizzas and each pizza has " + slicesPerPizza + " slices. Each of the " + numberOfPeopleAtParty + " people at the party will get " + numberOfSlicesPerPerson + " slices and Sparky would get " + numberOfSlicesForSparky + " slices.";
 
 console.log(finalResult);
 alert(finalResult);
