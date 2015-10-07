@@ -7,4 +7,14 @@
 
 //Will return the original amount and amount with discount and no tax along with amount with discount and tax.
 
+//User input for item description
+var itemDescription = prompt("Please give a description of your item:");
 
+//User input for original price
+var originalPrice = prompt("What is the price of your item?");
+
+//User input for discount amount
+var discountAmount = prompt("What is the discount amount?");
+
+//User input for sales tax
+var salesTax = prompt("What is the sales tax?");
