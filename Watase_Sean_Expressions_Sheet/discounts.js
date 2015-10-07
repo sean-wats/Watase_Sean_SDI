@@ -18,3 +18,17 @@ var discountAmount = prompt("What is the discount amount?");
 
 //User input for sales tax
 var salesTax = prompt("What is the sales tax?");
+
+
+
+//Results
+
+//Total with discount only (no tax)
+var totalWithDiscountNoTax = (100 / (100 - discountAmount) + 1) * originalPrice;
+
+//Total with discount and tax
+var totalWithDiscountAndTax = (100 / (100 - salesTax) + 1) * totalWithDiscountNoTax;
+
+
+//Output
+
