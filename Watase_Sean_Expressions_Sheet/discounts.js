@@ -24,10 +24,10 @@ var salesTax = prompt("What is the sales tax?");
 //Results
 
 //Total with discount only (no tax)
-var totalWithDiscountNoTax = (100 / (100 - discountAmount) + 1) * originalPrice;
+var totalWithDiscountNoTax = originalPrice - (originalPrice * (discountAmount / 100));
 
 //Total with discount and tax
-var totalWithDiscountAndTax = (100 / (100 - salesTax) + 1) * totalWithDiscountNoTax;
+var totalWithDiscountAndTax = totalWithDiscountNoTax + (totalWithDiscountNoTax * (salesTax / 100));
 
 
 //Output
