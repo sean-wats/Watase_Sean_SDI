@@ -21,3 +21,5 @@ var num1 = numberArray[0];
 var num2 = numberArray[1];
 var num3 = numberArray[2];
 
+//Finding the average of the 3 numbers
+var average = (num1 + num2 + num3) / 3;
