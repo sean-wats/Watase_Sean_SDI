@@ -25,4 +25,7 @@ var num3 = Number(numberArray[2]);
 var average = (num1 + num2 + num3) / 3;
 
 //Outputting the average
-console.log("The average of the 3 numbers are " + average);
+var finalResult = "The average of " + num1 + ", " + num2 + ", and " + num3 + " is " + average + ".";
+
+console.log(finalResult);
+alert(finalResult);
