@@ -13,9 +13,11 @@ var temperatureType = prompt("Next, enter F for fahrenheit ir C for Celsius.");
 var userTemperatureNumber = Number(userTempertureString);
 
 //Checking if user input is valid for temperature type
-if (temperatureType === "F" || temperatureType === "C") {
-
-
+if (temperatureType === "F") {
+    var fahrenheitToCelsius = (userTemperatureNumber - 32) * (5/9);
+}
+else if (temperatureType === "C") {
+    var celsiusToFahrenheit = (userTemperatureNumber + 32) * (9/5);
 }
 else {
     alert("The information you have given us is not valid.");
