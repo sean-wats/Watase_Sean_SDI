@@ -68,14 +68,14 @@ if (remainingAmount >= 0) {
     else {
         alert(invalid);
     }
+
+    var finalStatement = "Total Income: $" + paycheckTotal +
+        "\nBills and Food Cost: $" + totalSpendingBudget +
+        "\nSavings (" + savingsAmount + "%): $" + userSavings +
+        "\nPersonal: $" + userMisc;
+
+    alert(finalStatement);
 }
 else {
     alert("You have no remaining balance after your spending budget. Your spending budget exceeds your income.");
 }
-
-var finalStatement = "Total Income: $" + paycheckTotal +
-    "\nBills and Food Cost: $" + totalSpendingBudget +
-    "\nSavings (" + savingsAmount + "%): $" + userSavings +
-    "\nPersonal: $" + userMisc;
-
-alert(finalStatement);
