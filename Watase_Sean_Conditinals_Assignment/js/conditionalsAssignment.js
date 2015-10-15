@@ -11,10 +11,16 @@ if (additionalPaychecks === "Yes") {
 
     var paycheckTotal = paycheck + addPaycheck;
     console.log("Income total is: " + paycheckTotal);
+
+    alert("Your total income is: $" + paycheckTotal);
 }
 else if (additionalPaychecks === "No") {
-    
+    console.log("Income total is: " + paycheck);
+
+    alert("Your total income is: " + paycheck);
 }
+
+
 
 /**
  * Budget will consist of:
