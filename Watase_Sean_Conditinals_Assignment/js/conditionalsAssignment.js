@@ -61,6 +61,12 @@ if (additionalPaychecks == "Yes") {
     else {
         alert("You have no remaining balance after your spending budget. Your spending budget exceeds your income.");
     }
+
+
+    var finalStatement = "Total Income: $" + paycheckTotal +
+                        "\nBills and Food Cost: $" + totalSpendingBudget +
+                        "\nSavings (" + savingsAmount + "%): $" + userSavings +
+                        "\nPersonal: $" + userMisc;
 }
 else if (additionalPaychecks == "No") {
     console.log("Income total is: " + paycheck);
@@ -100,7 +106,14 @@ else if (additionalPaychecks == "No") {
     else {
         alert("You have no remaining balance after your spending budget. Your spending budget exceeds your income.");
     }
+
+    var finalStatement = "Total Income: $" + paycheck +
+        "\nBills and Food Cost: $" + totalSpendingBudget +
+        "\nSavings (" + savingsAmount + "%): $" + userSavings +
+        "\nPersonal: $" + userMisc;
 }
 else {
     alert(invalid);
 }
+
+alert(finalStatement);
