@@ -15,3 +15,8 @@
  *  F = 0-69
  **/
 
+//Get users grade in percentage
+var userGradePercentageInput = prompt("What is your grade percentage?");
+
+//Converting string to number
+var userGradePercentage = Number(userGradePercentageInput);
