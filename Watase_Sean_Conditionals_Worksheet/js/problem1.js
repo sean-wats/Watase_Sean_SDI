@@ -15,9 +15,19 @@ var userTemperatureNumber = Number(userTempertureString);
 //Checking if user input is valid for temperature type
 if (temperatureType === "F") {
     var fahrenheitToCelsius = (userTemperatureNumber - 32) * (5/9);
+
+    var celsiusConversionFinal = userTempertureString + "F is equal to " + fahrenheitToCelsius + "C.";
+    console.log(celsiusConversionFinal);
+
+    alert(celsiusConversionFinal);
 }
 else if (temperatureType === "C") {
     var celsiusToFahrenheit = (userTemperatureNumber + 32) * (9/5);
+
+    var fahrenheitConversionFinal = userTemperatureString + "C is equal to " + celsiusToFahrenheit + "F.";
+    console.log(fahrenheitConversionFinal);
+
+    alert(fahrenheitConversionFinal);
 }
 else {
     alert("The information you have given us is not valid.");
