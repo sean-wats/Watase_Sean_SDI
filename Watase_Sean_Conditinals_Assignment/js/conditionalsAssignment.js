@@ -42,7 +42,7 @@ if (additionalPaychecks == "Yes") {
     //Validating that the savings amount is greater than 0
     if (remainingAmount >= 0) {
         //Seeing if user wants to put amount away in savings
-        var savingsAmount = Number(prompt("What percentage would you like to put away and save? \n(Value must be between 0 - 100)"));
+        var savingsAmount = Number(prompt("Your remianing balance is: " + remainingAmount + "\nWhat percentage would you like to put away and save? \n(Value must be between 0 - 100)"));
 
         //Validating to see if percentage amount is valid
         if (savingsAmount >= 0 && savingsAmount <= 100) {
@@ -51,8 +51,8 @@ if (additionalPaychecks == "Yes") {
             //Finding the amount that will go to savings and the remaining is for users misc purposes
             var userSavings = remainingAmount * savingsAmountPercentage;
             var userMisc = remainingAmount - userSavings;
-            console.log(userSavings);
-            console.log(userMisc);
+            console.log("Your put $" + userSavings + " into savings.");
+            console.log("You have $" + userMisc + " remaining for personal use");
         }
         else {
             alert(invalid);
@@ -81,7 +81,7 @@ else if (additionalPaychecks == "No") {
     //Validating that the savings amount is greater than 0
     if (remainingAmount >= 0) {
         //Seeing if user wants to put amount away in savings
-        var savingsAmount = Number(prompt("What percentage would you like to put away and save? \n(Value must be between 0 - 100)"));
+        var savingsAmount = Number(prompt("Your remianing balance is: " + remainingAmount + "\nWhat percentage would you like to put away and save? \n(Value must be between 0 - 100)"));
 
         //Validating to see if percentage amount is valid
         if (savingsAmount >= 0 && savingsAmount <= 100) {
@@ -90,8 +90,8 @@ else if (additionalPaychecks == "No") {
             //Finding the amount that will go to savings and the remaining is for users misc purposes
             var userSavings = remainingAmount * savingsAmountPercentage;
             var userMisc = remainingAmount - userSavings;
-            console.log(userSavings);
-            console.log(userMisc);
+            console.log("Your put $" + userSavings + " into savings.");
+            console.log("You have $" + userMisc + " remaining for personal use");
         }
         else {
             alert(invalid);
