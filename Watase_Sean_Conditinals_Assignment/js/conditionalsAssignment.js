@@ -20,6 +20,9 @@ else if (additionalPaychecks === "No") {
 
     alert("Your total income is: " + paycheck);
 }
+else {
+    alert("The information you have provided is not valid.");
+}
 
 /**
  * Budget will consist of:
@@ -32,3 +35,14 @@ var totalBills = Number(prompt("What is the total amount of the bills you pay? \
 var totalFood = Number(prompt("How much do you spend on food? \n(Per month)"));
 
 var totalSpendingBudget = totalBills + totalFood;
+
+//Finding total amount of the user savings (Remaining after the spending budget)
+if (additionalPaychecks === "Yes") {
+    var savingsAmount = paycheckTotal - totalSpendingBudget;
+}
+else if (additionalPaychecks === "No") {
+    var savingsAmount = paycheck - totalSpendingBudget;
+}
+else {
+    alert("he information you have provided is not valid.");
+}
