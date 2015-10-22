@@ -12,10 +12,17 @@ var calculateCircumference =  function(radius){
     }
     else {
         var circumference = 2 * 3.14 * radius;
-    }
 
-    console.log(circumference);
-    return (circumference);
+        var numberVerification = isNaN(circumference);
+
+        if (numberVerification === false) {
+            console.log(circumference);
+            return (circumference);
+        }
+        else {
+            alert("Invalid Value");
+        }
+    }
 };
 
 var answer = calculateCircumference(Number(prompt("What is the radius?")));
