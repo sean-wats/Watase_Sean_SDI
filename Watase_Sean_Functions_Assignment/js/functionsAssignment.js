@@ -1,5 +1,5 @@
 //Functions Assignment
-//Power Ball
+//Power Ball or Florida Lottery
 
 /**
  * Power Ball Rules
@@ -9,7 +9,8 @@
 
 //5 whites balls must be drawn
 //Cannot have duplicates
-var ballNumber = 1;
+var ballNumber = 0;
+var whiteBalls = [];
 
 do {
     var randomNumber = function() {
@@ -18,9 +19,11 @@ do {
     var randomBallNumber = randomNumber();
     console.log(randomBallNumber);
 
+    whiteBalls[ballNumber] = randomBallNumber;
+
     ballNumber ++;
 }
-while (ballNumber < 6);
+while (ballNumber < 5);
 
 //1 red ball must be drawn
 
