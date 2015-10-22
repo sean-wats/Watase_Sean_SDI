@@ -8,22 +8,32 @@
  */
 
 //5 whites balls must be drawn
-//Cannot have duplicates
 var ballNumber = 0;
 var whiteBalls = [];
 
-do {
-    var randomNumber = function() {
-        return Math.round(Math.random() * (69 - 1)) + 1;
-    };
-    var randomBallNumber = randomNumber();
-    console.log(randomBallNumber);
+var drawingWhiteBalls = function() {
+    do {
+        var randomNumber = function () {
+            return Math.round(Math.random() * (69 - 1)) + 1;
+        };
+        var randomBallNumber = randomNumber();
+        console.log(randomBallNumber);
 
-    whiteBalls[ballNumber] = randomBallNumber;
+        whiteBalls[ballNumber] = randomBallNumber;
 
-    ballNumber ++;
+        ballNumber++;
+    }
+    while (ballNumber < 5);
+};
+drawingWhiteBalls();
+
+//Cannot have duplicates
+if (ballNumber[0] === ballNumber[1] || ballNumber[0] === ballNumber[2] || ballNumber[0] === ballNumber[3] || ballNumber[0] === ballNumber [4] || ballNumber[1] === ballNumber[2] || ballNumber[1] === ballNumber[3] || ballNumber[1] === ballNumber[4] || ballNumber[2] === ballNumber[3] || ballNumber[2] === ballNumber[4] || ballNumber[3] === ballNumber[4]) {
+    drawingWhiteBalls();
 }
-while (ballNumber < 5);
+else {
+    
+}
 
 //1 red ball must be drawn
 
