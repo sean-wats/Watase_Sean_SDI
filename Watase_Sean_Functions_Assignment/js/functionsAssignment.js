@@ -1,6 +1,5 @@
 //Functions Assignment
 
-
 //Power Ball or Florida Lottery
 var userGameSelection = prompt("Which of the following games would you like to see?\nPower Ball\nFlorida Lottery");
 var userGameSelectionLowerCase = userGameSelection.toLowerCase();
@@ -50,8 +49,6 @@ if (userGameSelectionLowerCase === "power ball") {
         "\nBall 4: " + whiteBalls[3] +
         "\nBall 5: " + whiteBalls[4] +
         "\n\nPower Ball: " + drawingRedBall);
-
-    taskFinish = true;
 }
 else if (userGameSelectionLowerCase === "florida lottery") {
     /**
@@ -79,8 +76,6 @@ else if (userGameSelectionLowerCase === "florida lottery") {
         "\nNumber 4: " + floridaLottery[3] +
         "\nNumber 5: " + floridaLottery[4] +
         "\nNumber 6: " + floridaLottery[5]);
-
-    taskFinish = true;
 }
 else {
     alert("Invalid Input");
