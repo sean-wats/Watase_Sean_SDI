@@ -47,7 +47,8 @@ var drawingRedBall = randomRedBall();
 console.log("The Power Ball is " + drawingRedBall);
 
 //Final result is 5 white balls and 1 red ball
-alert("Ball 1: " + whiteBalls[0] +
+alert("Power Ball Numbers:\n" +
+      "Ball 1: " + whiteBalls[0] +
       "\nBall 2: " + whiteBalls[1] +
       "\nBall 3: " + whiteBalls[2] +
       "\nBall 4: " + whiteBalls[3] +
@@ -61,3 +62,31 @@ alert("Ball 1: " + whiteBalls[0] +
  */
 
 //6 Random Numbers
+var floridaLotteryNumber = 0;
+var floridaLottery = [];
+
+//Creating random numbers
+var randomFloridaLotteryNumber = function() {
+  return Math.round(Math.random() * (53 - 1)) + 1;
+};
+
+//Randomly selecting 6 numbers from 1-53
+var lotteryNumberSelection = function() {
+    do {
+        floridaLottery[floridaLotteryNumber] = randomFloridaLotteryNumber();
+
+        floridaLotteryNumber ++;
+    }
+    while(floridaLotteryNumber < 6);
+};
+lotteryNumberSelection();
+
+//Output the Florida Lottery Numbers
+console.log("The 6 numbers for the Florida Lottery are: " + floridaLottery);
+alert("Florida Lottery Numbers:\n" +
+      "Number 1: " + floridaLottery[0] +
+      "\nNumber 2: " + floridaLottery[1] +
+      "\nNumber 3: " + floridaLottery[2] +
+      "\nNumber 4: " + floridaLottery[3] +
+      "\nNumber 5: " + floridaLottery[4] +
+      "\nNumber 6: " + floridaLottery[5]);
