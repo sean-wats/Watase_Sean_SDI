@@ -5,6 +5,11 @@
 var userGameSelection = prompt("Which of the following games would you like to see?\nPower Ball\nFlorida Lottery");
 var userGameSelectionLowerCase = userGameSelection.toLowerCase();
 
+//Random number function
+var randomNumber = function(max, min) {
+  return Math.round(Math.random() * (max - min)) + 1;
+};
+
 if (userGameSelectionLowerCase === "power ball") {
     /**
      * Power Ball Rules
@@ -16,20 +21,11 @@ if (userGameSelectionLowerCase === "power ball") {
     var ballNumber = 0;
     var whiteBalls = [];
 
-    //Random Number function
-    var randomNumber = function() {
-        return Math.round(Math.random() * (69 - 1)) + 1;
-    };
-
-    var drawingWhiteBalls = function() {
-        do {
-            whiteBalls[ballNumber] = randomNumber();
-
-            ballNumber++;
-        }
-        while (ballNumber < 5);
-    };
-    drawingWhiteBalls();
+    do {
+        whiteBalls[ballNumber] = randomNumber(69, 1);
+        ballNumber++;
+    }
+    while (ballNumber < 5);
 
     /**
      * Outputting the final draw
@@ -37,13 +33,8 @@ if (userGameSelectionLowerCase === "power ball") {
      */
     console.log("The white balls are " + whiteBalls);
 
-
     //1 red ball must be drawn
-    var randomRedBall = function() {
-        return Math.round(Math.random() * (25-1) + 1);
-    };
-
-    var drawingRedBall = randomRedBall();
+    var drawingRedBall = randomNumber(25, 1);
 
     /**
      * Outputting the final Power Ball
@@ -72,21 +63,12 @@ else if (userGameSelectionLowerCase === "florida lottery") {
     var floridaLotteryNumber = 0;
     var floridaLottery = [];
 
-    //Creating random numbers
-    var randomFloridaLotteryNumber = function() {
-        return Math.round(Math.random() * (53 - 1)) + 1;
-    };
-
     //Randomly selecting 6 numbers from 1-53
-    var lotteryNumberSelection = function() {
-        do {
-            floridaLottery[floridaLotteryNumber] = randomFloridaLotteryNumber();
-
-            floridaLotteryNumber ++;
-        }
-        while(floridaLotteryNumber < 6);
-    };
-    lotteryNumberSelection();
+    do {
+        floridaLottery[floridaLotteryNumber] = randomNumber(53, 1);
+        floridaLotteryNumber ++;
+    }
+    while(floridaLotteryNumber < 6);
 
     //Output the Florida Lottery Numbers
     console.log("The 6 numbers for the Florida Lottery are: " + floridaLottery);
