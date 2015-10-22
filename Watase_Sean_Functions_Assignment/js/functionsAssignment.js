@@ -96,8 +96,19 @@ userNumbers[5] = Number(prompt("Select your sixth number:"));
 console.log(userNumbers);
 
 //User chooses if they want to do XTRA
-prompt("Would you like to participate in XTRA? \n(XTRA allows you to multiply your winnings. You select 2x, 3x, 4x, or 5x)");
+var userXTRA = prompt("Would you like to participate in XTRA? \n(XTRA allows you to multiply your winnings. Answer Yes or No)");
+userXTRA.toLowerCase();
 
+if (userXTRA === "yes") {
+    var userXTRAMultiplier = prompt("Select which XTRA you want: \n2: Multiplies your winnings by 2\n3: Multiplies your winnings by 3\n4: Multiplies your winnings by 4\n5: Multiplies your winnings by 5");
+    console.log(userXTRAMultiplier);
+}
+else if (userXTRA === "no") {
+    userXTRAMultiplier = "0";
+}
+else {
+    alert("Invalid Value");
+}
 
 //Florida Lottery randomly produces 6 numbers
 var lotteryNumber = 0;
