@@ -84,6 +84,14 @@ alert("Ball 1: " + whiteBalls[0] +
  */
 
 //User selects 6 numbers from 1-53
+var userNumbers = [];
+
+userNumbers[0] = Number(prompt("Select your first number:"));
+userNumbers[1] = Number(prompt("Select your second number:"));
+userNumbers[2] = Number(prompt("Select your third number:"));
+userNumbers[3] = Number(prompt("Select your fourth number:"));
+userNumbers[4] = Number(prompt("Select your fifth number:"));
+userNumbers[5] = Number(prompt("Select your sixth number:"));
 
 //User chooses if they want to do XTRA
 
