@@ -93,9 +93,28 @@ userNumbers[3] = Number(prompt("Select your fourth number:"));
 userNumbers[4] = Number(prompt("Select your fifth number:"));
 userNumbers[5] = Number(prompt("Select your sixth number:"));
 
+console.log(userNumbers);
+
 //User chooses if they want to do XTRA
+prompt("Would you like to participate in XTRA? \n(XTRA allows you to multiply your winnings. You select 2x, 3x, 4x, or 5x)");
+
 
 //Florida Lottery randomly produces 6 numbers
+var lotteryNumber = 0;
+var floridaLotteryNumbers = [];
+var floridaLotteryRandomNumbersFunction = function() {
+    return Math.round(Math.random() * (53 - 1) + 1);
+};
+var floridaLotteryRandomNumbers = function() {
+  do {
+      floridaLotteryNumbers[lotteryNumber] = floridaLotteryRandomNumbersFunction();
+
+      lotteryNumber ++;
+  }
+  while(lotteryNumber < 6);
+};
+floridaLotteryRandomNumbers();
+console.log(floridaLotteryNumbers);
 
 //Check to see how much numbers match
 
