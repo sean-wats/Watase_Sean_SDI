@@ -26,9 +26,6 @@ var drawingWhiteBalls = function() {
 };
 drawingWhiteBalls();
 
-//Cannot have duplicates
-//Redraw ball 1 if it is the same number as any other ball
-
 /**
  * Outputting the final draw
  * All 5 white balls should be different numbers
@@ -54,4 +51,46 @@ alert("Ball 1: " + whiteBalls[0] +
       "\nBall 2: " + whiteBalls[1] +
       "\nBall 3: " + whiteBalls[2] +
       "\nBall 4: " + whiteBalls[3] +
-      "\nBall 5: " + whiteBalls[4])
+      "\nBall 5: " + whiteBalls[4] +
+      "\n\nPower Ball: " + drawingRedBall);
+
+
+/**
+ * Florida Lottery Rules
+ * User selects 6 numbers between 1-53
+ * XTRA: A user can multiply their winnings (2,3,4, or 5)
+ *
+ * Winnings:
+ *      2 matches = N/A
+ *          XTRA 2 = Free Ticket
+ *          XTRA 3 = Free Ticket
+ *          XTRA 4 = Free Ticket
+ *          XTRA 5 = Free Ticket
+ *      3 matches = $5.00
+ *          XTRA 2 = $25.00
+ *          XTRA 3 = $25.00
+ *          XTRA 4 = $25.00
+ *          XTRA 5 = $25.00
+ *      4 matches = $70.00
+ *          XTRA 2 = $140.00
+ *          XTRA 3 = $210.00
+ *          XTRA 4 = $280.00
+ *          XTRA 5 = $350.00
+ *      5 matches = $5,000.00
+ *          XTRA 2 = $10,000.00
+ *          XTRA 3 = $15,000.00
+ *          XTRA 4 = $20,000.00
+ *          XTRA 5 = $25,000.00
+ */
+
+//User selects 6 numbers from 1-53
+
+//User chooses if they want to do XTRA
+
+//Florida Lottery randomly produces 6 numbers
+
+//Check to see how much numbers match
+
+//Output the result
+
+//Output if the user won any prizes
